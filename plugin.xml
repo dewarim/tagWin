@@ -1,0 +1,29 @@
+<plugin name='tag-win' version='0.2.9' grailsVersion='2.0 &gt; *'>
+  <author>Ingo Wiarda</author>
+  <authorEmail>ingo_wiarda@dewarim</authorEmail>
+  <title>Tag Win Plugin</title>
+  <description>Open Source Tag library
+</description>
+  <type>TagWinGrailsPlugin</type>
+  <resources>
+    <resource>tagWin.TagWinService</resource>
+    <resource>tagWin.SoupTagLib</resource>
+    <resource>tagWin.StringTagLib</resource>
+  </resources>
+  <repositories>
+    <repository name='grailsCentral' url='http://grails.org/plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
+  <dependencies>
+    <runtime>
+      <dependency group='org.ccil.cowan.tagsoup' name='tagsoup' version='1.2.1' />
+    </runtime>
+  </dependencies>
+  <plugins>
+    <compile>
+      <plugin group='org.grails.plugins' name='release' version='2.2.0' />
+    </compile>
+  </plugins>
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>

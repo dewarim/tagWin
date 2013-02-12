@@ -1,0 +1,10 @@
+*.svn*
+*.settings*
+*.class
+target/**
+*~
+.svn*
+.svn
+.classpath
+/.idea/workspace.xml
+/.idea/tasks.xml

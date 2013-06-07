@@ -1,11 +1,8 @@
 class TagWinGrailsPlugin {
-    // the plugin version
+    
     def version = "0.2.10"
-    // the version or versions of Grails the plugin is designed for
     def grailsVersion = "2.0 > *"
-    // the other plugins this plugin depends on
     def dependsOn = [:]
-    // resources that are excluded from plugin packaging
     def pluginExcludes = [
             "grails-app/views/error.gsp",
             "grails-app/controllers/tagWin/TagWinController.groovy"
@@ -18,12 +15,8 @@ class TagWinGrailsPlugin {
 Open source tag library for Grails applications 
 '''
 
-    // URL to the plugin's documentation
 //    def documentation = "http://grails.org/plugin/tag-win"
 
-    // Extra (optional) plugin metadata
-
-    // License: one of 'APACHE', 'GPL2', 'GPL3'
     def license = "APACHE"
 
     // Details of company behind the plugin (if there is one)

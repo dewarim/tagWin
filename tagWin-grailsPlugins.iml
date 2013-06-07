@@ -3,34 +3,31 @@
   <component name="FacetManager">
     <facet type="hibernate" name="Hibernate">
       <configuration>
-        <datasource-map>
-          <unit-entry name="Gorm" />
-          <unit-entry name="sessionFactory" />
-        </datasource-map>
+        <datasource-map />
       </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$USER_HOME$/.grails/2.2.0/projects/tagWin/plugins/hibernate-2.2.0" />
-    <content url="file://$USER_HOME$/.grails/2.2.0/projects/tagWin/plugins/release-2.2.0">
-      <sourceFolder url="file://$USER_HOME$/.grails/2.2.0/projects/tagWin/plugins/release-2.2.0/src/java" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.2.0/projects/tagWin/plugins/release-2.2.0/src/groovy" isTestSource="false" />
+    <content url="file://$USER_HOME$/.grails/2.2.2/projects/tagWin/plugins/hibernate-2.2.2">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.2/projects/tagWin/plugins/hibernate-2.2.2/grails-app/i18n" isTestSource="false" />
     </content>
-    <content url="file://$USER_HOME$/.grails/2.2.0/projects/tagWin/plugins/rest-client-builder-1.0.3">
-      <sourceFolder url="file://$USER_HOME$/.grails/2.2.0/projects/tagWin/plugins/rest-client-builder-1.0.3/src/groovy" isTestSource="false" />
+    <content url="file://$USER_HOME$/.grails/2.2.2/projects/tagWin/plugins/release-2.2.1">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.2/projects/tagWin/plugins/release-2.2.1/src/java" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.2/projects/tagWin/plugins/release-2.2.1/src/groovy" isTestSource="false" />
     </content>
+    <content url="file://$USER_HOME$/.grails/2.2.2/projects/tagWin/plugins/rest-client-builder-1.0.3">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.2/projects/tagWin/plugins/rest-client-builder-1.0.3/src/groovy" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/2.2.2/projects/tagWin/plugins/tomcat-2.2.2" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="grails-2.0.1" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="grails-2.0.3" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="grails-2.0.4" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="grails-2.1.1" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="grails-2.2.0" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="grails-2.2.2" level="application" />
     <orderEntry type="module-library" exported="">
       <library name="Grails User Library (tagWin-grailsPlugins)">
         <CLASSES>
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.ccil.cowan.tagsoup/tagsoup/jars/tagsoup-1.2.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.eclipse.jdt.core.compiler/ecj/jars/ecj-3.7.2.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/nekohtml/nekohtml/jars/nekohtml-1.9.6.2.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/nekohtml/xercesMinimal/jars/xercesMinimal-1.9.6.2.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.maven.wagon/wagon-http-shared/jars/wagon-http-shared-1.0-beta-6.jar!/" />
